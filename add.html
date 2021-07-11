@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://kit.fontawesome.com/30c671eceb.js" crossorigin="anonymous"></script>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <!--SLICK CSS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+    <title>Bakery</title>
+  <link rel="shortcut icon" href="Ateev.webp">
+  <link rel="stylesheet" href="index.css">
+  </head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="index.html">AD</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="true" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon" ></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                      <a class="nav-link" href="index.html">Home</a>
+                      <a class="nav-link"  href="menu.html">Menu</a>
+                      <a class="nav-link" href="order.html">Order</a>
+                    </div>
+                    <a href="add.html" id="cart">
+                        <i class="fas fa-shopping-cart"></i>
+                      </a>    
+                  </div>
+                </div>
+            </nav>
+            <div id="menu2" class="col-md-12 text-center">
+                <h1 class="h1a">Your Orders</h1>
+            </div>
+            <!--MAIN CONTENT-->
+            <div id="order">
+                <div class="row">
+                    <div class="card col-md-3" id="AC">
+                        <img src="Aniversary Cake.webp" class="card-img-top mc1">
+                        <div class="card-body">
+                          <h5 class="card-title" id="cati"><b>Aniversary Cake</b></h5>
+                          <h5 class="card-subtitle" id="desp">Describe your product</h5>
+                          <h5 class="card-subtitle" id="price">$9</h5>
+                          <h5 class="card-subtitle" id="spe">Special Requests</h5>
+                          <li id="spe-li">Extra layer</li>
+                          <div class="btn-group dropup">
+                         <button id="qty" type="button">Quantity</button>
+                         <select id="qty" class="dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                         <option value="1">1</option>
+                         <option value="2">2</option>
+                         <option value="3">3</option>
+                         <option value="4">4</option>
+                        </select>
+                        </div>
+                         <button class="col-md-3" id="remove1">Remove</button>
+                     </div>
+                     </div>
+                      <div class="card col-md-3" id="CA">
+                        <img src="Cake.webp" class="card-img-top mc1">
+                        <div class="card-body">
+                          <h5 class="card-title" id="cati"><b>Cake</b></h5>
+                          <h5 class="card-subtitle" id="desp">Describe your product</h5>
+                          <h5 class="card-subtitle" id="price">$9</h5>
+                          <h5 class="card-subtitle" id="spe">Special Requests</h5>
+                          <li id="spe-li">Extra layer</li>
+                          <div class="btn-group dropup">
+                            <button id="qty" type="button">Quantity</button>
+                            <select id="qty" class="dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                           </select>
+                           </div>
+                            <button class="col-md-3" id="remove2">Remove</button>
+                        </div>
+                      </div>
+                      <div class="card col-md-3" id="SC">
+                        <img src="Strawberry-Cake.webp" class="card-img-top mc1">
+                        <div class="card-body">
+                          <h5 class="card-title" id="cati"><b>Starwberry Cake</b></h5>
+                          <h5 class="card-subtitle" id="desp">Describe your product</h5>
+                          <h5 class="card-subtitle" id="price">$9</h5>
+                          <h5 class="card-subtitle" id="spe">Special Requests</h5>
+                          <li id="spe-li">Extra layer</li>
+                          <div class="btn-group dropup">
+                            <button id="qty" type="button">Quantity</button>
+                            <select id="qty" class="dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                           </select>
+                           </div>
+                            <button class="col-md-3" id="remove3">Remove</button>
+                        </div>
+                      </div>
+                      <div class="card col-md-3" id="CP">
+                        <img src="Creamy Pastry.webp" class="card-img-top mc1">
+                        <div class="card-body">
+                          <h5 class="card-title" id="cati"><b>Creamy Pastry</b></h5>
+                          <h5 class="card-subtitle" id="desp">Describe your product</h5>
+                          <h5 class="card-subtitle" id="price">$9</h5>
+                          <h5 class="card-subtitle" id="spe">Special Requests</h5>
+                          <li id="spe-li">Extra layer</li>
+                          <div class="btn-group dropup">
+                            <button id="qty" type="button">Quantity</button>
+                            <select id="qty" class="dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                           </select>
+                           </div>
+                            <button class="col-md-3" id="remove4">Remove</button>
+                        </div>
+                      </div>
+                </div>
+            </div>
+             <!--FOOTER-->
+             <div id="footer" class="row g-0">
+                <div id="footer1" class="col-md-2">
+                  <h1 class="brand">AD</h1>
+                  <div class="add">ABC Agra</div>
+                </div>
+                <div id="footer2" class="col-md-3">
+                  <div class="h2b">Opening Hours</div>
+                  <p class="p">Mon-Fri : 11am - 9pm</p>
+                  <p class="p">Sat & Sun : 12pm - 12am</p>
+                </div>
+                <div id="footer3" class="col-md-2">
+                  <div class="explore">Explore</div>
+                  <a href="index.html" class="e-item">Home</a><br>
+                  <a href="add.html" class="e-item">Cart</a><br>
+                <a href="menu.html" class="e-item">Menu</a>
+                </div>
+                <div id="footer4" class="col-md-2">
+                  <div class="follow">Follow</div>
+                  <div class="f-links">Facebook</div>
+                  <div class="f-links">Instagram</div>
+                  <div class="f-links">Twitter</div>
+                  <div class="f-links">Linkdin</div>
+                </div>
+                <div id="footer5" class="col-md-3">
+                  <div class="contact">Mail us at</div>
+                  <a  id="a-link" href = "mailto: hello@tekoliocom" target="_blank">hello@tekolio.com</a>
+                </div>
+                <div id="footer6" class="col-md-12 text-center">
+                  <p class="p1"> Copyright <u>&#169; AD 2021</u> All rights reserved</p>
+                </div>
+              </div>
+          </div>
+      </div>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+      <script src="index.js"></script>
+  </body>
+</html>  
+
+
